@@ -1,6 +1,5 @@
-FROM ubuntu:14.04
+FROM debian
 
-# Update Ubuntu and install common packages
 RUN apt-get update -y
 RUN apt-get install -y s3cmd
 
